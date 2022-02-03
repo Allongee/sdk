@@ -2,7 +2,7 @@
   "name": "privatesdkchangezeta",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zetamarkets/sdk.git"
+    "url": "git+https://github.com/allongee/sdk.git"
   },
   "version": "0.1.0",
   "description": "Fork from Zeta SDK",
