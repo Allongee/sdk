@@ -1,11 +1,14 @@
 {
-  "name": "@zetamarkets/sdk",
-  "repository": "https://github.com/zetamarkets/sdk/",
-  "version": "0.11.0",
-  "description": "Zeta SDK",
+  "name": "privatesdkchangezeta",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zetamarkets/sdk.git"
+  },
+  "version": "0.1.0",
+  "description": "Fork from Zeta SDK",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "@zetamarkets",
+  "author": "Allongee",
   "license": "Apache-2.0",
   "scripts": {
     "build": "cp -r ../../target/idl/zeta.json ./src/idl/zeta.json && tsc",
@@ -24,5 +27,12 @@
     "@types/node": "^16.11.12",
     "mocha": "^9.1.1",
     "typedoc": "^0.22.10"
+  },
+  "bugs": {
+    "url": "https://github.com/Allongee/sdk/issues"
+  },
+  "homepage": "https://github.com/Allongee/sdk#readme",
+  "directories": {
+    "example": "examples"
   }
 }
